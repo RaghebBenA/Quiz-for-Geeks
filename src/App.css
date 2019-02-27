@@ -16,20 +16,148 @@ font-size: 18px;
 }
 
 .title{
-  width: 18%;
-max-height: 100px;
-min-height: 50px;
+  width: 100px;
 }
-.logo{
-  width: 20%;
-height: 200px;
+@media only screen and (max-width: 2000px) {
+   .title{
+   width: 350px;
+   }
+   
+ }
+ @media only screen and (max-width: 400px) {
+  .title{
+  width: 150px;
+ 
+  }
+}
+@media only screen and (max-width: 600px) {
+  .title{
+  width: 220px;
+ 
+  }
+}
 
-  
+
+.logo{
+  width: 200px;
 }
+@media only screen and (max-width: 2000px) {
+   .logo{
+   width: 350px;
+   height: 200px;
+   }
+   
+ }
+ @media only screen and (max-width: 400px) {
+  .logo{
+  width: 150px;
+ padding-bottom: 40%
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo{
+  width: 220px;
+padding-bottom: 20%
+  }
+}
+.paraDiv{
+  padding-top: 2%
+}
+@media only screen and (max-width: 400px) {
+  .paraDiv{
+ padding-top: 10%
+  }
+}
+@media only screen and (max-width: 600px) {
+  .paraDiv{
+ padding-top: 7%
+  }
+}
+
 .para{
   font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 35px;
+}
+
+@media only screen and (max-width: 400px) {
+  .para{
+ font-size: 20px
+  }
+}
+@media only screen and (max-width: 600px) {
+  .para{
+ font-size: 22px
+  }
+}
+
+.imgTitle{
+  height: 100px;
+  
+}
+@media only screen and (max-width: 400px) {
+  .imgTitle{
+  height: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .imgTitle{
+  height: 60px;
+  }
+}
+.imgLogo{
+  height: 100px;
+}
+@media only screen and (max-width: 400px) {
+  .imgLogo{
+  height: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .imgLogo{
+  height: 60px;
+  }
+}
+.box{
+  width: 252.36px;
+  height: 224px;
+  background: url("./Assets/CS.jpg");
+background-size: 100%;
+border-radius: 33px;
+background-position: center;
+justify-content: center;
+
+}
+.boxPara{
+  color: white;
+  text-align: center;
+  padding-top: 40%;
+  position:relative;
+  font-weight: bold;
+  background: hsla(0, 0%, 100%, .3);
+  height: 224px;
+  border-radius: 33px;
+}
+
+
+.boxTwo{
+  width: 252.36px;
+  height: 224px;
+  background: url("./Assets/antoine-dautry-428780-unsplash.jpg");
+background-size: 100%;
+border-radius: 33px;
+background-position: center;
+background-size: cover;
+transition: all .6s;
+
+}
+.boxTwo:hover{
+  backdrop-filter: blur(3px);
+}
+.grid{
+  display: inline-flex;
+  justify-content: space-between;	
+
 }
