@@ -25,9 +25,9 @@ class Header extends Component {
                     </NavLink>
                         </NavItem>
                     </Nav>
-                    <div className="navLink"  style={color}>
+                    <NavLink className="navLink" style={color} to="/login">
                         <span className="fa fa-sign-in fa-lg "></span>Login
-                    </div>
+                        </NavLink>
                 </Navbar.Collapse>
             </Navbar>
 

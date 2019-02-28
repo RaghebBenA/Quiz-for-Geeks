@@ -267,3 +267,42 @@ transition: all .6s;
   }
 }
 
+.loginContainer{
+  padding-top: 10%;
+  padding-left: 42%;
+  justify-content: center;
+}
+@media only screen and (max-width: 400px) {
+  .loginContainer{
+    padding-left: 5%
+  }
+}
+@media only screen and (max-width: 600px) {
+  .loginContainer{
+    padding-left: 12%
+  }
+}
+
+.login{
+  width: fit-content;
+height: fit-content;
+justify-content: center;
+background: rgba(158, 75, 242, 0.29);
+border-radius: 49px;
+
+}
+
+.logoLo{
+  height: 150px;
+  justify-content: first baseline;
+}
+.form{
+ padding-top: 5%;
+ padding-left: 15%;
+}
+.username{
+  background: none;
+  border: 0.5px solid #000000;
+border-radius: 10px;
+justify-items: center;
+}
