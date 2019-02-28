@@ -5,10 +5,11 @@
 
 .nav{
   background: rgba(117, 84, 252, 0.49);
+  height: auto;
 
 }
 .navLink{
-  font-family: sans-serif;
+  font-family: 'Open Sans',sans-serif;
   font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -128,11 +129,25 @@ background-size: 100%;
 border-radius: 33px;
 background-position: center;
 justify-content: center;
-
 }
+@media only screen and (max-width: 400px) {
+  .box{
+  width: 100%;
+  height: 80px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .box{
+  width: 100%;
+  height: 120px;
+  }
+}
+
+
 .boxPara{
   color: white;
   text-align: center;
+  font-family: 'Exo' , sans-serif;
   padding-top: 40%;
   position:relative;
   font-weight: bold;
@@ -140,7 +155,20 @@ justify-content: center;
   height: 224px;
   border-radius: 33px;
 }
-
+@media only screen and (max-width: 400px) {
+  .boxPara{
+font-size: 14px;
+padding-top: 15%;
+height: 80px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .boxPara{
+font-size: 18px;
+padding-top: 12%;
+height: 120px;
+  }
+}
 
 .boxTwo{
   width: 252.36px;
@@ -151,13 +179,91 @@ border-radius: 33px;
 background-position: center;
 background-size: cover;
 transition: all .6s;
+}
+@media only screen and (max-width: 400px) {
+  .boxTwo{
+    width: 100%;
+  height: 80px;
+  
+  }
+}
+@media only screen and (max-width: 600px) {
+  .boxTwo{
+    width: 100%;
+    height: 120px;
+      }
+}
 
-}
-.boxTwo:hover{
-  backdrop-filter: blur(3px);
-}
+
 .grid{
-  display: inline-flex;
-  justify-content: space-between;	
+padding-top: 3%;
 
 }
+@media only screen and (max-width: 400px) {
+  .grid{
+position: relative;
+height: 360px;
+
+  }
+}
+@media only screen and (max-width: 600px) {
+  .grid{
+    position: relative;
+    height: 530px;
+
+      }
+}
+@media only screen and (max-width: 1500px) {
+  .grid{
+    position: relative;
+   height: 550px;
+      }
+}
+
+
+.boxThree{
+  width: 252.36px;
+  height: 224px;
+  background: url("./Assets/denise-jans-541440-unsplash.jpg");
+background-size: 100%;
+border-radius: 33px;
+background-position: center;
+background-size: cover;
+transition: all .6s;
+}
+@media only screen and (max-width: 400px) {
+  .boxThree{
+    width: 100%;
+  height: 80px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .boxThree{
+  width: 100%;
+  height: 120px;
+  }
+}
+
+.boxFour{
+  width: 252.36px;
+  height: 224px;
+  background: url("./Assets/Music.jpg");
+background-size: 100%;
+border-radius: 33px;
+background-position: center;
+background-size: cover;
+transition: all .6s;
+}
+@media only screen and (max-width: 400px) {
+  .boxFour{
+    width: 100%;
+  height: 80px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .boxFour{
+  width: 100%;
+  height: 120px;
+  }
+}
+

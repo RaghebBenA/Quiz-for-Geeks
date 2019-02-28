@@ -1,7 +1,7 @@
 import React from "react"
 import title from "../Assets/title.svg"
-import logo from "../Assets/logo.svg"
-
+import logo from "../Assets/Quiz Logo.svg"
+import Box from "./Boxes"
 
 
 const Home = () => {
@@ -22,13 +22,8 @@ const Home = () => {
                     <p className="para">For each Gategory you will have 30 Questions</p>
                 </div>
             </div>
-            <div className="grid">
-                <div className="box" >
-                    <p className="boxPara">Computer Science</p>
-                </div>
-                <div className="boxTwo" >
-                    <p className="boxPara">Mathematics</p>
-                </div>
+            <div>
+                <Box />
             </div>
         </React.Fragment>
 
